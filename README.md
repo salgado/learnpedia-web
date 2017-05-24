@@ -1,24 +1,24 @@
 # learnpedia-web
-módulo front-end
+* módulo front-end
 
-Depedendencias do projeto:
+## Depedendencias do projeto:
 
-$ sudo apt-get update
-$ sudo apt-get install nodejs
-$ sudo apt-get install npm
-$ sudo npm install -g bower
-$ sudo npm install -g grunt-cli
+* $ sudo apt-get update
+* $ sudo apt-get install nodejs
+* $ sudo apt-get install npm
+* $ sudo npm install -g bower
+* $ sudo npm install -g grunt-cli
 
-$ npm install
+* $ npm install
 
-$ bower install - Caso esse comando retorne erro: "/usr/bin/env: node: No such file or directory"
+* $ bower install
 
-Para rodar o projeto:
+## Para rodar o projeto:
 
-$ grunt server
+* $ grunt server
 
-Informações úteis:
+## Informações úteis:
 
-Se após executar o comando 'bower install, retornar o erro: "/usr/bin/env: node: No such file or directory", deve-se executar o seguinte comando:
+* Se após executar o comando 'bower install, retornar o erro: "/usr/bin/env: node: No such file or directory", deve-se executar o seguinte comando:
 
-$ sudo ln -s /usr/bin/nodejs /usr/bin/node
+* $ sudo ln -s /usr/bin/nodejs /usr/bin/node
