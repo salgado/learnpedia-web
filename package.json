@@ -1,5 +1,5 @@
 {
-  "name": "cscwproject",
+  "name": "learnpedia",
   "private": true,
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
@@ -31,5 +31,8 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "angular-ui-router": "^1.0.3"
   }
 }
