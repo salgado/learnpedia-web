@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('main', 
+angular.module('login', 
 [
     'ui.router'
 ])
