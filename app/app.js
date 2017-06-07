@@ -1,15 +1,15 @@
 'use strict';
 
 angular
-  .module('learnpedia', [
-    'main',
+  .module('learnpedia', [    
     'login',
+    'main',
+    'content',
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch',
     'ui.bootstrap',
     'ui.router',
     'ngMaterial',
@@ -33,6 +33,11 @@ angular
           url: '/main',
           templateUrl: 'modules/main/views/main.html',
           controller: 'MainCtrl'
+        })
+        .state('content', {
+          url: '/content',
+          templateUrl: 'modules/content/views/content.html',
+          controller: 'ContentCtrl'
         })
     }
   ])

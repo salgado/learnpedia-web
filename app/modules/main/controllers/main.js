@@ -5,4 +5,8 @@ angular.module('main')
     $scope.logout = function () {
         $state.go('app.login')    
     };
+
+    $scope.createContent = function () {
+      $state.go('app.content');
+    };
   });
