@@ -17,7 +17,8 @@ angular
     'datePicker',
     'checklist-model',
     'angularMoment',
-    'ui.utils.masks'
+    'ui.utils.masks',
+    'ngYoutubeEmbed'
   ])
 
   .config(['$stateProvider','$urlRouterProvider',
