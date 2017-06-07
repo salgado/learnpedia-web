@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('login')
-  .factory('LoginFactory', function ($scope, $state) {
+  .factory('LoginFactory', function () {
     var factory = {};
 
     factory.login = function (id, username, password) {
