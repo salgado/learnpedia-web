@@ -18,7 +18,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-aria.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.4/angular-material.min.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCE4Y0-ac9lj5mhuDhznJYtcePJo21AeCw",
+        authDomain: "learnpedia-312e9.firebaseapp.com",
+        databaseURL: "https://learnpedia-312e9.firebaseio.com",
+        projectId: "learnpedia-312e9",
+        storageBucket: "learnpedia-312e9.appspot.com",
+        messagingSenderId: "1094625570907"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script>
        !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
