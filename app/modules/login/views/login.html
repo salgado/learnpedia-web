@@ -1,12 +1,25 @@
+    <script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyCE4Y0-ac9lj5mhuDhznJYtcePJo21AeCw",
+	    authDomain: "learnpedia-312e9.firebaseapp.com",
+	    databaseURL: "https://learnpedia-312e9.firebaseio.com",
+	    projectId: "learnpedia-312e9",
+	    storageBucket: "learnpedia-312e9.appspot.com",
+	    messagingSenderId: "1094625570907"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+
 <div class="container">
     <div class="col-sm-5 new-session-forms-container" style="margin-left:25%">
         <div>
             <form class="form-signin">
                 <span><b>Nome de Usuário</b></span>
-                <input type="email" class="form-control">
+                <input type="email" class="form-control" name="email">
                 <br>
                 <span><b>Senha</b></span>
-                <input type="password" class="form-control">
+                <input type="password" class="form-control" name="password">
                 <div class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Lembre Senha
