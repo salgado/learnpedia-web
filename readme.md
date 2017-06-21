@@ -19,3 +19,5 @@ Informações úteis:
 Se após executar o comando 'bower install, retornar o erro: "/usr/bin/env: node: No such file or directory", deve-se executar o seguinte comando:
 
 $ sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+.
